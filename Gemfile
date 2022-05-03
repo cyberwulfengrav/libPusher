@@ -4,7 +4,7 @@ gem 'rake'
 gem 'rest-client'
 
 group :scripts do
-  gem 'sinatra'
+  gem 'sinatra', '>= 2.2.0'
   gem 'pusher'
   gem 'json'
   gem 'thin'
