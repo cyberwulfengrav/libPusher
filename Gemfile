@@ -4,7 +4,7 @@ gem 'rake'
 gem 'rest-client'
 
 group :scripts do
-  gem 'sinatra'
+  gem 'sinatra', '>= 2.0.0'
   gem 'pusher'
   gem 'json'
   gem 'thin'
@@ -14,6 +14,6 @@ end
 group :building do
   gem 'xcodebuild-rb', git: 'git://github.com/lukeredpath/xcodebuild-rb.git'
   gem 'xcodeproj'
-  gem 'cocoapods', '>=1.2.0'
+  gem 'cocoapods', '>= 1.11.0'
   gem 'ios-sim-test', git: 'git://github.com/alloy/ios-sim-test.git'
 end
