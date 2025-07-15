@@ -7,7 +7,7 @@ group :scripts do
   gem 'sinatra'
   gem 'pusher'
   gem 'json'
-  gem 'thin'
+  gem 'thin', '>= 2.0.0'
   gem 'uuid'
 end
 
